@@ -1,0 +1,269 @@
+Comandos tailwind:
+Espaciado (Margins y Paddings)
+m-4 → Margen de 1 rem (16px) en todos los lados.
+mt-2 → Margen superior de 0.5 rem (8px).
+mb-6 → Margen inferior de 1.5 rem (24px).
+p-4 → Padding de 1 rem en todos los lados.
+px-8 → Padding horizontal (izquierda y derecha) de 2 rem (32px).
+
+2. Tamaño y Dimensiones
+w-1/2 → Ancho del 50% del contenedor padre.
+h-64 → Altura fija de 16 rem (256px).
+min-w-full → Ancho mínimo al 100%.
+max-w-screen-lg → Ancho máximo hasta el tamaño de pantalla lg (1024px).
+h-screen → Altura al 100% de la pantalla.
+
+3. Tipografía
+text-xl → Tamaño de fuente grande (20px).
+font-bold → Texto en negrita.
+leading-relaxed → Espaciado entre líneas relajado.
+tracking-wide → Espaciado entre letras amplio.
+text-gray-700 → Color de texto gris oscuro.
+
+4. Flexbox y Grid
+flex → Activa display: flex.
+flex-col → Direcciona los elementos en columna.
+justify-between → Espacia los elementos uniformemente entre sí.
+items-center → Alinea los elementos al centro verticalmente.
+grid grid-cols-3 → Crea una cuadrícula de 3 columnas.
+
+5. Bordes y Sombras
+border → Aplica un borde de 1px.
+border-2 border-blue-500 → Borde de 2px color azul.
+rounded-lg → Bordes redondeados grandes.
+shadow-md → Aplica una sombra mediana.
+outline-none → Remueve el contorno (útil para inputs).
+
+6. Fondos y Opacidad
+bg-red-500 → Fondo rojo fuerte.
+bg-gradient-to-r from-blue-500 to-green-500 → Fondo con degradado de azul a verde.
+opacity-75 → Opacidad del 75%.
+backdrop-blur-md → Aplica un desenfoque de fondo.
+hover:bg-gray-700 → Cambia el fondo a gris oscuro al pasar el cursor.
+
+Estilos de Texto
+text-sm → Tamaño de texto pequeño.
+text-base → Tamaño de texto normal (16px).
+text-lg → Tamaño de texto grande (18px).
+text-2xl → Texto extra grande (24px).
+text-4xl → Texto muy grande (36px).
+font-light → Fuente con peso ligero.
+font-medium → Fuente con peso medio.
+font-extrabold → Fuente extra negrita.
+italic → Texto en cursiva.
+underline → Subrayado en el texto.
+
+2. Colores de Texto
+text-white → Texto blanco.
+text-black → Texto negro.
+text-gray-500 → Texto gris medio.
+text-red-600 → Texto rojo fuerte.
+text-blue-400 → Texto azul claro.
+text-green-700 → Texto verde oscuro.
+text-yellow-500 → Texto amarillo estándar.
+text-purple-600 → Texto morado fuerte.
+text-pink-400 → Texto rosa claro.
+hover:text-indigo-500 → Cambia el color del texto a índigo al pasar el cursor.
+
+3. Colores de Fondo
+bg-black → Fondo negro.
+bg-white → Fondo blanco.
+bg-gray-800 → Fondo gris oscuro.
+bg-red-300 → Fondo rojo claro.
+bg-blue-500 → Fondo azul estándar.
+bg-green-600 → Fondo verde intenso.
+bg-yellow-400 → Fondo amarillo claro.
+bg-gradient-to-r from-purple-500 to-pink-500 → Fondo con gradiente de morado a rosa.
+hover:bg-gray-900 → Cambia el fondo a gris más oscuro al pasar el cursor.
+bg-opacity-75 → Reduce la opacidad del fondo al 75%.
+
+💡 Extra: Para Barras de Navegación
+bg-gray-900 text-white → Barra de navegación oscura con texto blanco.
+bg-blue-600 text-gray-200 → Barra azul con texto gris claro.
+border-b-2 border-gray-700 → Línea de borde inferior para la barra.
+flex justify-between items-center → Diseño flexible para organizar elementos.
+p-4 shadow-lg → Espaciado y sombra para resaltar la barra.
+
+Botones y Estilos
+
+btn → Comúnmente utilizado para aplicar una clase base a botones personalizados.
+bg-blue-500 → Fondo azul para un botón.
+text-white → Texto blanco en el botón.
+p-2 → Padding de 0.5 rem en el botón.
+px-6 py-2 → Padding horizontal de 1.5 rem y vertical de 0.5 rem.
+rounded-lg → Bordes redondeados grandes.
+hover:bg-blue-700 → Cambia el fondo a un azul más oscuro al pasar el cursor.
+hover:scale-105 → Aumenta ligeramente el tamaño del botón al pasar el cursor.
+focus:outline-none → Remueve el contorno cuando el botón está enfocado.
+shadow-md → Sombra mediana para el botón.
+active:bg-blue-800 → Fondo azul más oscuro cuando se presiona el botón.
+disabled:bg-gray-400 → Fondo gris cuando el botón está deshabilitado.
+transition duration-300 ease-in-out → Transición suave en los cambios de estado.
+border-2 border-blue-500 → Borde de 2px y color azul en el botón.
+text-lg → Tamaño de texto grande para el botón.
+tracking-wider → Aumenta el espaciado entre letras del botón.
+
+2. Cuadros de Texto (Input, Textarea)
+input → Clase base para cuadros de texto (input).
+w-full → Hace que el cuadro de texto ocupe todo el ancho disponible.
+p-2 → Padding de 0.5 rem dentro del cuadro de texto.
+border-2 border-gray-300 → Borde de 2px y color gris claro.
+rounded-md → Bordes medianos redondeados en el cuadro de texto.
+focus:ring-2 focus:ring-blue-500 → Añade un anillo azul al cuadro de texto al enfocar.
+focus:border-blue-500 → Cambia el borde a azul cuando el cuadro de texto está enfocado.
+text-gray-700 → Color de texto gris en el cuadro de texto.
+placeholder-gray-500 → Color del texto del marcador de posición (placeholder) gris.
+disabled:bg-gray-200 → Fondo gris claro cuando el cuadro de texto está deshabilitado.
+resize-none → Desactiva la capacidad de redimensionar un textarea.
+textarea → Clase base para cuadros de texto de varias líneas.
+h-32 → Altura del cuadro de texto de 8 rem (128px).
+
+3. Tipografía
+Encabezados (h1, h2)
+text-4xl → Tamaño de texto grande para un encabezado (h1).
+text-2xl → Tamaño de texto medio para un encabezado (h2).
+font-bold → Texto en negrita para los encabezados.
+leading-tight → Espaciado de líneas ajustado para los encabezados.
+text-gray-900 → Color de texto gris oscuro para los encabezados.
+text-center → Alineación centrada para los encabezados.
+tracking-normal → Espaciado normal entre letras en los encabezados.
+
+Párrafos (p)
+text-base → Tamaño de texto base (16px) para párrafos.
+text-gray-700 → Color gris oscuro para el texto de los párrafos.
+leading-relaxed → Espaciado relajado entre las líneas de los párrafos.
+mb-4 → Margen inferior de 1 rem para separar los párrafos.
+text-justify → Justifica el texto en los párrafos.
+indent-4 → Sangría de 1 rem en el comienzo de los párrafos.
+
+4. Animaciones
+animate-spin → Hace que un elemento gire.
+animate-ping → Hace que un elemento "pulse" expandiéndose y contrayéndose.
+animate-bounce → Crea un efecto de rebote para el elemento.
+animate-pulse → Efecto de parpadeo o pulso (opacidad fluctuante).
+transition-all duration-500 → Transición para todos los cambios, durando 500ms.
+ease-in-out → Define una curva de velocidad de animación suave.
+delay-200 → Retrasa la animación en 200ms.
+hover:animate-pulse → Aplica una animación de pulso cuando el cursor pasa sobre el elemento.
+
+5. Animaciones Hover (Interacción con el Cursor)
+hover:bg-blue-500 → Fondo azul al pasar el cursor sobre un elemento.
+hover:text-gray-900 → Cambia el color del texto a gris oscuro al pasar el cursor.
+hover:scale-110 → Aumenta el tamaño del elemento un 10% cuando el cursor pasa sobre él.
+hover:rotate-45 → Rota el elemento 45 grados cuando el cursor pasa sobre él.
+hover:shadow-xl → Añade una sombra más grande al pasar el cursor.
+hover:border-blue-500 → Cambia el color del borde a azul al pasar el cursor.
+hover:opacity-75 → Cambia la opacidad del elemento al 75% al pasar el cursor.
+hover:bg-gradient-to-r hover:from-blue-500 hover:to-green-500 → Aplica un gradiente de azul a verde al pasar el cursor sobre el fondo.
+hover:text-red-500 → Cambia el color del texto a rojo al pasar el cursor.
+hover:translate-x-4 → Desplaza el elemento 1 rem a la derecha cuando el cursor pasa sobre él.
+
+Centrado de Contenido en el nav
+
+flex → Activa el modelo Flexbox para el contenedor del nav.
+justify-center → Centra los elementos horizontalmente dentro del nav.
+items-center → Centra los elementos verticalmente dentro del nav.
+text-center → Alinea el texto de los elementos del nav al centro.
+mx-auto → Aplica márgenes automáticos a ambos lados, centrándolo horizontalmente.
+space-x-4 → Aplica un espacio de 1 rem entre los elementos dentro del nav.
+w-full → Hace que el nav ocupe todo el ancho disponible.
+h-16 → Altura fija de 4 rem (64px) para el nav.
+p-4 → Padding de 1 rem en el nav.
+bg-gray-800 → Fondo gris oscuro para el nav.
+text-white → Texto blanco dentro del nav.
+border-b-2 border-gray-600 → Borde inferior gris para el nav.
+shadow-md → Sombra mediana para darle profundidad al nav.
+rounded-lg → Bordes redondeados grandes para el nav.
+flex-wrap → Permite que los elementos se ajusten a una nueva línea si es necesario.
+
+2. Agregar Logos (Por ejemplo, GitHub)
+flex items-center space-x-2 → Centra los elementos en línea y agrega espacio entre ellos.
+w-8 h-8 → Establece un tamaño fijo para el logo (8x8 rem).
+rounded-full → Bordes redondeados completamente (para hacer círculos).
+text-2xl → Establece el tamaño de texto grande para el logo si es un ícono de texto.
+text-gray-100 → Texto gris claro para el logo si es un ícono basado en texto.
+hover:text-gray-300 → Cambia el color del logo a gris claro cuando el cursor pasa sobre él.
+fill-current → Hace que el color del logo se ajuste al color de texto actual.
+cursor-pointer → Aplica un cursor de puntero al pasar el mouse sobre el logo, indicando que es interactivo.
+mr-2 → Aplica un margen a la derecha del logo (útil para separar el logo de texto o enlaces).
+bg-transparent → Hace que el fondo del logo sea transparente.
+
+3. Enlaces y Elementos de la Barra de Navegación
+text-lg → Tamaño de texto grande para los enlaces del nav.
+hover:text-blue-500 → Cambia el color del texto a azul al pasar el cursor.
+px-4 py-2 → Padding horizontal y vertical para los enlaces.
+transition-all duration-300 ease-in-out → Transición suave en todos los cambios de estado.
+border-b-2 border-transparent hover:border-blue-500 → Añade un borde azul debajo del enlace solo al pasar el cursor.
+
+Centrando Textos
+
+text-center → Centra el texto horizontalmente dentro de su contenedor.
+text-left → Alinea el texto a la izquierda dentro de su contenedor.
+text-right → Alinea el texto a la derecha dentro de su contenedor.
+m-auto → Aplica márgenes automáticos para centrar un bloque dentro de su contenedor.
+leading-tight → Ajusta el espaciado entre líneas para que el texto sea más compacto.
+leading-loose → Ajusta el espaciado entre líneas para que el texto sea más suelto.
+text-justify → Justifica el texto (alineado a ambos márgenes).
+text-2xl → Establece el tamaño del texto en 2xl.
+text-4xl → Establece el tamaño del texto en 4xl.
+text-sm → Establece el tamaño del texto en pequeño.
+text-lg → Establece el tamaño del texto en grande.
+
+2. Centrando Contenido y Alineación
+
+flex → Activa el modelo de diseño flexbox en el contenedor.
+justify-center → Centra los elementos horizontalmente dentro de un contenedor con Flexbox.
+items-center → Centra los elementos verticalmente dentro de un contenedor con Flexbox.
+flex-col → Organiza los elementos de manera vertical (columna) en un contenedor Flexbox.
+flex-row → Organiza los elementos de manera horizontal (fila) en un contenedor Flexbox.
+justify-between → Distribuye los elementos de manera que haya espacio entre ellos, dejando el primero en el extremo izquierdo y el último en el derecho.
+justify-evenly → Distribuye los elementos con un espacio igual entre ellos y entre los bordes.
+justify-start → Alinea los elementos al principio del contenedor.
+justify-end → Alinea los elementos al final del contenedor.
+items-start → Alinea los elementos verticalmente al inicio del contenedor.
+items-end → Alinea los elementos verticalmente al final del contenedor.
+3. Márgenes y Espaciados (Horizontal y Vertical)
+
+Márgenes Verticales
+
+mt-4 → Aplica un margen superior de 1 rem (16px).
+mb-4 → Aplica un margen inferior de 1 rem (16px).
+my-4 → Aplica márgenes tanto en la parte superior como inferior de 1 rem (16px).
+mt-8 → Aplica un margen superior de 2 rem (32px).
+mb-8 → Aplica un margen inferior de 2 rem (32px).
+my-8 → Aplica márgenes tanto en la parte superior como inferior de 2 rem (32px).
+mt-0 → Remueve el margen superior.
+mb-0 → Remueve el margen inferior.
+
+Márgenes Horizontales
+
+ml-4 → Aplica un margen izquierdo de 1 rem (16px).
+mr-4 → Aplica un margen derecho de 1 rem (16px).
+mx-4 → Aplica márgenes tanto a la izquierda como a la derecha de 1 rem (16px).
+ml-8 → Aplica un margen izquierdo de 2 rem (32px).
+mr-8 → Aplica un margen derecho de 2 rem (32px).
+mx-8 → Aplica márgenes tanto a la izquierda como a la derecha de 2 rem (32px).
+ml-0 → Remueve el margen izquierdo.
+mr-0 → Remueve el margen derecho.
+mx-0 → Remueve los márgenes horizontales (izquierda y derecha).
+4. Espaciado entre Elementos (Padding)
+
+Padding Vertical
+
+pt-4 → Aplica padding (espaciado interno) superior de 1 rem (16px).
+pb-4 → Aplica padding (espaciado interno) inferior de 1 rem (16px).
+py-4 → Aplica padding tanto superior como inferior de 1 rem (16px).
+pt-8 → Aplica padding superior de 2 rem (32px).
+pb-8 → Aplica padding inferior de 2 rem (32px).
+py-8 → Aplica padding tanto superior como inferior de 2 rem (32px).
+
+Padding Horizontal
+
+pl-4 → Aplica padding (espaciado interno) izquierdo de 1 rem (16px).
+pr-4 → Aplica padding (espaciado interno) derecho de 1 rem (16px).
+px-4 → Aplica padding tanto izquierdo como derecho de 1 rem (16px).
+pl-8 → Aplica padding izquierdo de 2 rem (32px).
+pr-8 → Aplica padding derecho de 2 rem (32px).
+px-8 → Aplica padding tanto izquierdo como derecho de 2 rem (32px).
+
+Estos comandos cubren lo esencial para diseñar con Tailwind. ¿Necesitas más detalles o ejemplos específicos? 🚀
